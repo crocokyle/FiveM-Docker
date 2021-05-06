@@ -13,3 +13,9 @@ cd FiveM-Docker
 docker build -t registry.gitlab.com/<your-repo>/fivem-base:3903 .
 docker push registry.gitlab.com/<your-repo>/fivem-base:3903
 ```
+
+## Commands for running the final image
+
+```bash
+docker run -p 30120:30120 -p 30120:30120/udp -ti -v D:\temp\revolution-2-0-docker:/home/FXServer/server-data registry.gitlab.com/crocokyle/revolution-2-0-docker/revolution2.0:v1.0
+```
