@@ -10,8 +10,8 @@ Dockerfile used to create a FiveM server base image.
 ```bash
 git clone https://github.com/crocokyle/FiveM-Docker.git
 cd FiveM-Docker
-docker build -t registry.gitlab.com/<your-repo>/fivem-base:3903 .
-docker push registry.gitlab.com/<your-repo>/fivem-base:3903
+docker build -t registry.gitlab.com/<your-repo>/fivem-base:latest .
+docker push registry.gitlab.com/<your-repo>/fivem-base:latest
 ```
 
 ## Commands to build the revolution2.0 image
